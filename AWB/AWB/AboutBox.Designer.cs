@@ -120,7 +120,7 @@ namespace AutoWikiBrowser
             this.lblDevs.Name = "lblDevs";
             this.lblDevs.Size = new System.Drawing.Size(174, 13);
             this.lblDevs.TabIndex = 5;
-            this.lblDevs.Text = "Now developed and maintained by:";
+            this.lblDevs.Text = "Maintenant développé et maintenu par :";
             // 
             // lblAWBVersion
             // 
@@ -138,7 +138,7 @@ namespace AutoWikiBrowser
             this.lblDetails.Name = "lblDetails";
             this.lblDetails.Size = new System.Drawing.Size(42, 13);
             this.lblDetails.TabIndex = 7;
-            this.lblDetails.Text = "Details:";
+            this.lblDetails.Text = "Détails:";
             // 
             // lblOriginalDevs
             // 
@@ -147,7 +147,7 @@ namespace AutoWikiBrowser
             this.lblOriginalDevs.Name = "lblOriginalDevs";
             this.lblOriginalDevs.Size = new System.Drawing.Size(100, 13);
             this.lblOriginalDevs.TabIndex = 3;
-            this.lblOriginalDevs.Text = "Original developers:";
+            this.lblOriginalDevs.Text = "Développeurs originales :";
             // 
             // UsageStatsLabel
             // 
@@ -157,7 +157,7 @@ namespace AutoWikiBrowser
             this.UsageStatsLabel.Size = new System.Drawing.Size(81, 13);
             this.UsageStatsLabel.TabIndex = 2;
             this.UsageStatsLabel.TabStop = true;
-            this.UsageStatsLabel.Text = "Usage statistics";
+            this.UsageStatsLabel.Text = "Statistiques d'utilisation";
             this.UsageStatsLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UsageStatsLabel_LinkClicked);
             // 
             // lblRevision
@@ -167,7 +167,7 @@ namespace AutoWikiBrowser
             this.lblRevision.Name = "lblRevision";
             this.lblRevision.Size = new System.Drawing.Size(35, 13);
             this.lblRevision.TabIndex = 1;
-            this.lblRevision.Text = "SVN: ";
+            this.lblRevision.Text = "SVN : ";
             // 
             // flwDevs
             // 
@@ -273,7 +273,7 @@ namespace AutoWikiBrowser
             this.linkPhabricator.Size = new System.Drawing.Size(157, 13);
             this.linkPhabricator.TabIndex = 14;
             this.linkPhabricator.TabStop = true;
-            this.linkPhabricator.Text = "Phabricator (bugs and requests)";
+            this.linkPhabricator.Text = "Phabricator (bugs et requêtes)";
             this.linkPhabricator.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkPhabricator_LinkClicked);
             // 
             // flowLayoutPanel1
@@ -314,7 +314,7 @@ namespace AutoWikiBrowser
             this.lblContribs.Name = "lblContribs";
             this.lblContribs.Size = new System.Drawing.Size(174, 13);
             this.lblContribs.TabIndex = 11;
-            this.lblContribs.Text = "Contributors and past developers:";
+            this.lblContribs.Text = "Contributeurs et anciens développeurs :";
             // 
             // txtVersions
             // 
@@ -326,7 +326,7 @@ namespace AutoWikiBrowser
             this.txtVersions.Size = new System.Drawing.Size(251, 50);
             this.txtVersions.TabIndex = 13;
             this.txtVersions.TabStop = false;
-            this.txtVersions.Text = "Internet Explorer version:\r\n.NET version:\r\nWindows version:";
+            this.txtVersions.Text = "Internet Explorer version :\r\n.NET version :\r\nWindows version :";
             // 
             // AboutBox
             // 
@@ -358,7 +358,7 @@ namespace AutoWikiBrowser
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "About";
+            this.Text = "À propos";
             this.TopMost = true;
             this.flwDevs.ResumeLayout(false);
             this.flwDevs.PerformLayout();

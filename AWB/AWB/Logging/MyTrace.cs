@@ -27,7 +27,7 @@ using WikiFunctions.Logging;
 namespace AutoWikiBrowser.Logging
 {
     /// <summary>
-    /// Logging manager
+    /// Gestionnaire de journalisation
     /// </summary>
     internal sealed class MyTrace : TraceManager, IAWBTraceListener
     {
@@ -84,7 +84,7 @@ namespace AutoWikiBrowser.Logging
         {
             foreach (KeyValuePair<string, IMyTraceListener> t in Listeners)
             {
-                t.Value.WriteCommentAndNewLine("closing all logs");
+                t.Value.WriteCommentAndNewLine("fermer tous les journaux");
                 t.Value.Close();
             }
             Listeners.Clear();
@@ -119,7 +119,7 @@ namespace AutoWikiBrowser.Logging
 
         protected override string ApplicationName
         {
-            get { return "AutoWikiBrowser logging manager"; }
+            get { return "Gestionnaire de journalisation AutoWikiBrowser"; }
         }
     }
 }
