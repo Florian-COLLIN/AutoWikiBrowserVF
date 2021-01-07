@@ -241,15 +241,15 @@ namespace AutoWikiBrowser
 
         private void guideToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(@"A module allows you to process the article text using your own .NET code.
+            MessageBox.Show(@"Un module vous permet de traiter le texte de l'article en utilisant votre propre code .NET.
 
-Use the ""Make module"" button to compile and load the code.
+Utilisez le bouton "" Créer un module "" pour compiler et charger le code.
 
-The method ""ProcessArticle"" is called when AWB is applying all its own processes. Do not change the signature of this method.
+La méthode "" ProcessArticle "" est appelée lorsque AWB applique tous ses propres processus. Ne modifiez pas la signature de cette méthode.
 
-The int value ""Namespace"" gives you the key of the namespace, e.g. mainspace is 0 etc., the string ""Summary"" must be set to the message to append to the summary (or can be an empty string), the bool ""Skip"" must be set whether to skip the article or not.
+La valeur int "" Namespace "" vous donne la clé de l'espace de noms, par exemple espace principal est 0 etc., la chaîne "" Résumé "" doit être définie sur le message à ajouter au résumé (ou peut être une chaîne vide), le booléen "" Ignorer "" doit être défini pour ignorer l'article ou non .
 
-For more detailed information, click Help -> Manual on the Custom Module window.",
+Pour plus d'informations, cliquez sur Aide -> Manuel dans la fenêtre Module personnalisé.",
                 "Guide", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
@@ -339,7 +339,7 @@ For more detailed information, click Help -> Manual on the Custom Module window.
 
         private void manualToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tools.OpenENArticleInBrowser("Wikipedia:AutoWikiBrowser/Custom_Modules", false);
+            Tools.OpenENArticleInBrowser("Wikipédia:AutoWikiBrowser/Custom_Modules", false);
         }
     }
 }

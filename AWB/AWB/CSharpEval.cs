@@ -80,7 +80,7 @@ namespace CSharpEvaluator {
                 using (CustomModuleErrors error = new CustomModuleErrors())
                 {
                     error.ErrorText = builder.ToString();
-                    error.Text = "Compilation " + (hasErrors ? "errors" : "warnings");
+                    error.Text = "Compilation " + (hasErrors ? "erreurs" : "attention");
                     error.ShowDialog(this);
                 }
 

@@ -3,14 +3,14 @@
     partial class CustomModule
     {
         /// <summary>
-        /// Required designer variable.
+        /// Variable de concepteur requise.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Nettoyer toutes les ressources utilisées.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true si les ressources gérées doivent être supprimées ; sinon, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Méthode requise pour la prise en charge du concepteur - ne pas modifier
+        /// le contenu de cette méthode avec l'éditeur de code.
         /// </summary>
         private void InitializeComponent()
         {
@@ -139,14 +139,14 @@
             this.toolStripTextBox1});
             this.goToLineToolStripMenuItem.Name = "goToLineToolStripMenuItem";
             this.goToLineToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.goToLineToolStripMenuItem.Text = "&Go to Line";
+            this.goToLineToolStripMenuItem.Text = "&Allez à la ligne";
             // 
             // toolStripTextBox1
             // 
             this.toolStripTextBox1.MaxLength = 6;
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 23);
-            this.toolStripTextBox1.Text = "Enter line number";
+            this.toolStripTextBox1.Text = "Entrer un numéro de ligne";
             this.toolStripTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.toolStripTextBox1_KeyPress);
             this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
             // 
@@ -157,7 +157,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 8;
-            this.btnClose.Text = "&Close";
+            this.btnClose.Text = "&Fermer";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -169,7 +169,7 @@
             this.btnMake.Name = "btnMake";
             this.btnMake.Size = new System.Drawing.Size(87, 23);
             this.btnMake.TabIndex = 7;
-            this.btnMake.Text = "&Make module";
+            this.btnMake.Text = "&Créer un module";
             this.btnMake.UseVisualStyleBackColor = true;
             this.btnMake.Click += new System.EventHandler(this.btnMake_Click);
             // 
@@ -195,7 +195,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "&Language";
+            this.label1.Text = "&Langue";
             // 
             // lblStatus
             // 
@@ -205,7 +205,7 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(93, 13);
             this.lblStatus.TabIndex = 2;
-            this.lblStatus.Text = "No module loaded";
+            this.lblStatus.Text = "Aucun module chargé";
             // 
             // chkModuleEnabled
             // 
@@ -214,7 +214,7 @@
             this.chkModuleEnabled.Name = "chkModuleEnabled";
             this.chkModuleEnabled.Size = new System.Drawing.Size(65, 17);
             this.chkModuleEnabled.TabIndex = 1;
-            this.chkModuleEnabled.Text = "&Enabled";
+            this.chkModuleEnabled.Text = "&Activé";
             this.chkModuleEnabled.UseVisualStyleBackColor = true;
             this.chkModuleEnabled.CheckedChanged += new System.EventHandler(this.chkModuleEnabled_CheckedChanged);
             // 
@@ -235,7 +235,7 @@
             this.showOnlyCodeBoxToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.viewToolStripMenuItem.Text = "View";
+            this.viewToolStripMenuItem.Text = "Voir";
             // 
             // showOnlyCodeBoxToolStripMenuItem
             // 
@@ -243,7 +243,7 @@
             this.showOnlyCodeBoxToolStripMenuItem.Name = "showOnlyCodeBoxToolStripMenuItem";
             this.showOnlyCodeBoxToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F11;
             this.showOnlyCodeBoxToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.showOnlyCodeBoxToolStripMenuItem.Text = "Show only code box";
+            this.showOnlyCodeBoxToolStripMenuItem.Text = "Afficher uniquement la zone de code";
             this.showOnlyCodeBoxToolStripMenuItem.CheckedChanged += new System.EventHandler(this.showOnlyCodeBoxToolStripMenuItem_CheckedChanged);
             // 
             // helpToolStripMenuItem
@@ -253,13 +253,13 @@
             this.manualToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "&Help";
+            this.helpToolStripMenuItem.Text = "&Aide";
             // 
             // guideToolStripMenuItem
             // 
             this.guideToolStripMenuItem.Name = "guideToolStripMenuItem";
             this.guideToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.guideToolStripMenuItem.Text = "Quick &guide";
+            this.guideToolStripMenuItem.Text = "&Guidde rapide";
             this.guideToolStripMenuItem.Click += new System.EventHandler(this.guideToolStripMenuItem_Click);
             // 
             // chkFixedwidth
@@ -271,7 +271,7 @@
             this.chkFixedwidth.Name = "chkFixedwidth";
             this.chkFixedwidth.Size = new System.Drawing.Size(100, 17);
             this.chkFixedwidth.TabIndex = 3;
-            this.chkFixedwidth.Text = "&Fixed width font";
+            this.chkFixedwidth.Text = "&Police à largeur fixe";
             this.chkFixedwidth.UseVisualStyleBackColor = true;
             this.chkFixedwidth.CheckedChanged += new System.EventHandler(this.chkFixedwidth_CheckedChanged);
             // 
@@ -283,7 +283,7 @@
             this.lblBuilt.Name = "lblBuilt";
             this.lblBuilt.Size = new System.Drawing.Size(139, 13);
             this.lblBuilt.TabIndex = 6;
-            this.lblBuilt.Text = "Custom Module Built At: n/a";
+            this.lblBuilt.Text = "Module personnalisé construit à : n/a";
             // 
             // panel1
             // 
